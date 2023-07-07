@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { addList1, addList2 } from "../store/ListAction";
+import { addList1, addList2 } from "../../store/ListAction";
 import "./inputBox.css";
 const InputBox = ({ inputNumber }) => {
   const [input, setInput] = useState("");

@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import InputBox from "../components/inputBox";
-import ListBox from "../components/ListBox";
+import InputBox from "../components/task1/inputBox";
+import ListBox from "../components/task1/ListBox";
 import { useSelector } from "react-redux";
-import OutputCard from "../components/outputCard";
+import OutputCard from "../components/task1/outputCard";
 import "./task1.css";
 const Task1 = () => {
   const data = useSelector((state) => state.listData);

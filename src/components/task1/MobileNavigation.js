@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-import "../App.css";
-import Bars from "../assets/bars.png";
-import Close from "../assets/close.png";
+import "./mobileNavigation.css";
+import Bars from "../../assets/bars.png";
+import Close from "../../assets/close.png";
 import "./mobileNavigation.css";
 function MobileNavigation() {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

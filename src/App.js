@@ -4,8 +4,8 @@ import { combineReducers, createStore } from "redux";
 import { Provider } from "react-redux";
 import Task1 from "./screens/Task1";
 import Task2 from "./screens/Task2";
-import MobileNavigation from "./components/MobileNavigation";
-import DesktopNavigation from "./components/DesktopNavigation";
+import MobileNavigation from "./components/task1/MobileNavigation";
+import DesktopNavigation from "./components/task1/DesktopNavigation";
 import "./App.css";
 import ListData from "./store/ListReducer";
 const rootReducer = combineReducers({
@@ -33,7 +33,7 @@ function App() {
           <nav>
             <div className="logo-container">
               <Link to="/">
-                <span>Shyam Tiwari</span>
+                <span>React JS</span>
               </Link>
             </div>
             {isMobile ? <MobileNavigation /> : <DesktopNavigation />}

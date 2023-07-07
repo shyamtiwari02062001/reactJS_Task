@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
-import cross from "../assets/cross.png";
-import { addList1, addList2 } from "../store/ListAction";
+import cross from "../../assets/cross.png";
+import { addList1, addList2 } from "../../store/ListAction";
 import './listBox.css'
 const ListBox = ({ listNumber }) => {
   const data = useSelector((state) => state.listData);
