@@ -1,0 +1,65 @@
+.task2Container {
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: -moz-hidden-unscrollable;
+    height: '100%';
+    justify-content: space-around;
+}
+
+.cycleStarter {
+    display: flex;
+    gap: 30px;
+}
+
+.dropdown {
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    font-size: large;
+    font-weight: bold;
+}
+
+.startButton {
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    width: 100px;
+}
+
+.time {
+    font-size: 200px;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+    .time {
+        font-size: 130px;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
+@media (max-width: 479px) {
+    .time {
+        font-size: 110px;
+    font-weight: bolder;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+}
