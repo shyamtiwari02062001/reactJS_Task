@@ -1,0 +1,22 @@
+
+.inputContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .inputBox {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: double;
+    width: 75%;
+  }
+  
+  .addButton {
+    border-radius: 15px;
+    width: 15%;
+    border-style: double;
+    border-color: black;
+  
+  }

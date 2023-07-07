@@ -1,0 +1,14 @@
+.desktop-navigation {
+    flex: 0.3;
+    justify-content: space-around;
+    display: flex;
+}
+
+.desktop-navigation ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex: 1;
+    justify-content: space-evenly;
+}
